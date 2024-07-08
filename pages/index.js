@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>My Blog</title>
+        <title>TeCH InFo</title>
         <meta name="description" content="A blog created with Next.js and Bootstrap" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
