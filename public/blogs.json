@@ -1,0 +1,21 @@
+
+[
+    {
+      "id": 1,
+      "title": "Blog Post Title",
+      "date": "January 1, 2024",
+      "author": "Author",
+      "excerpt": "This is a short excerpt from the blog post...",
+      "link": "/posts/1"
+    },
+    {
+      "id": 2,
+      "title": "Another Blog Post Title",
+      "date": "January 2, 2024",
+      "author": "Author",
+      "excerpt": "This is a short excerpt from the blog post...",
+      "link": "/posts/2"
+    }
+ 
+  ]
+  
