@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className="container py-5">
-        <h1 className="text-center mb-4">Welcome to My Blog</h1>
+        <h1 className="text-center mb-4">Welcome to My change</h1>
 
         <div className="row">
           <div className="col-md-8">
