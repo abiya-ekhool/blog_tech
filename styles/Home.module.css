@@ -1,6 +1,10 @@
+/* styles/Home.module.css */
 .container {
-  padding: 0 2rem;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 15px;
 }
+
 
 .main {
   min-height: 100vh;
