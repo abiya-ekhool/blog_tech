@@ -23,14 +23,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>TeCH InFo</title>
+        <title>techplazaa</title>
         <meta name="description" content="A blog created with Next.js and Bootstrap" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="container py-5">
-        <h1 className="text-center mb-4">Welcome to My Blog</h1>
+        <h1 className="text-center mb-4">Welcome to Tech Plazaa</h1>
 
         <div className="row">
           <div className="col-md-8">
