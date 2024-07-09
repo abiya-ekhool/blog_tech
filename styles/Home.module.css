@@ -131,3 +131,27 @@
     filter: invert(1);
   }
 }
+/* styles/Home.module.css */
+
+
+.card {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 25px;
+  border-radius: 3px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* background-color: #333; */
+  color: white;
+}
+
+.card .icon {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
