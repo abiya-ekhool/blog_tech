@@ -70,10 +70,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className="text-center py-4">
-        <p>Powered by <a href="https://vercel.com">Vercel</a></p>
-      </footer>
     </div>
   );
 }
