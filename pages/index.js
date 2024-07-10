@@ -75,7 +75,7 @@ export default function Home() {
             <div key={blog.id} className="col-lg-4 col-md-6">
               <div className={`card ${styles.blogCard} border-0 shadow-sm rounded-lg`} data-aos="fade-up">
                 <div className="card-body">
-                <Link href={`/blogs/${blog.slug}`} passHref legacyBehavior>
+                <Link href={`/${blog.slug}`} passHref legacyBehavior>
   <a className="text-decoration-none">
     <h4 className="card-title mb-3">{blog.title}</h4>
   </a>
