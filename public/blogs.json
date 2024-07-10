@@ -1,53 +1,56 @@
-
 [
-    {
+  {
       "id": 1,
       "title": "Nesciunt Mete",
       "date": "January 1, 2024",
       "author": "Author",
       "excerpt": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+      "slug": "nesciunt-mete", 
       "link": "/posts/1"
-    },
-    {
+  },
+  {
       "id": 2,
       "title": "Eosle Commodi",
       "date": "January 2, 2024",
       "author": "Author",
       "excerpt": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem",
+      "slug": "eosle-commodi", 
       "link": "/posts/2"
-    },
-    {
+  },
+  {
       "id": 3,
       "title": "Ledo Markt",
       "date": "January 2, 2024",
       "author": "Author",
       "excerpt": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti",
-      "link": "/posts/2"
-    },
-    {
+      "slug": "ledo-markt",  
+      "link": "/posts/3"
+  },
+  {
       "id": 4,
       "title": "Asperiores Commodit",
       "date": "January 2, 2024",
       "author": "Author",
       "excerpt": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque",
-      "link": "/posts/2"
-    },
-    {
+      "slug": "asperiores-commodit",  
+      "link": "/posts/4"
+  },
+  {
       "id": 5,
       "title": "Velit Doloremque",
       "date": "January 2, 2024",
       "author": "Author",
       "excerpt": "TCumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore",
-      "link": "/posts/2"
-    },
-    {
+      "slug": "velit-doloremque", 
+      "link": "/posts/5"
+  },
+  {
       "id": 6,
       "title": "Dolori Architecto",
       "date": "January 2, 2024",
       "author": "Author",
       "excerpt": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim",
-      "link": "/posts/2"
-    }
- 
-  ]
-  
+      "slug": "dolori-architecto",  
+      "link": "/posts/6"
+  }
+]
