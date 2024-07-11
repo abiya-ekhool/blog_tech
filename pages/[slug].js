@@ -1,7 +1,9 @@
 // pages/blogs/[slug].js
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+
 import styles from '../styles/Home.module.css';
+import PostDetialLayout from '../layout/PostDetialLayout';
 
 export default function BlogPost() {
   const router = useRouter();
@@ -18,19 +20,22 @@ export default function BlogPost() {
   }
 
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>{blog.title}</title>
-        <meta name="description" content={blog.content.substring(0, 160)} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <PostDetialLayout>
+      <div className={styles.container}>
+            <Head>
+              <title>{blog.title}</title>
+              <meta name="description" content={blog.content.substring(0, 160)} />
+              <link rel="icon" href="/favicon.ico" />
+            </Head>
 
-      <main className="container py-5">
-        <article>
-          <h1>{blog.title}</h1>
-          <p>{blog.content}</p>
-        </article>
-      </main>
-    </div>
+            <main className="container py-5">
+              <article>
+                <h1>{blog.title}</h1>
+                <p>{blog.content}</p>
+              </article>
+            </main>
+          </div>
+    </PostDetialLayout>
+    
   );
 }
