@@ -27,7 +27,7 @@ export default function Home() {
       <Head>
      
         <title>Tech Plazaa - A Tech Blog</title>
-        <meta name="description" content="Explore the latest tech trends and innovations on Tech Plazaa, a blog created with Next.js and Bootstrap." />
+        <meta name="description" content="Explore the latest tech trends and innovations on Tech Plazaa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.techplazaa.com/" />
