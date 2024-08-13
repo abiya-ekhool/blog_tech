@@ -53,6 +53,14 @@ export default function Home() {
             }
           `
         }} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3F92CJJZJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y3F92CJJZJ');
+</script>
       </Head>
 
       <main className="container py-5">
