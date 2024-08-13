@@ -15,6 +15,7 @@ export default function BlogPost() {
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
   };
 
+
   if (!slug) {
     return null; // Handle case when slug is not yet available
   }

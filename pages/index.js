@@ -26,7 +26,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Tech Plazaa - A Tech Blog</title>
-        <meta name="description" content="Explore the latest tech trends and innovations on Tech Plazaa, a blog created with Next.js and Bootstrap." />
+        <meta name="description" content="Explore the latest tech trends and innovations on Tech Plazaa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.techplazaa.com/" />
@@ -76,10 +76,10 @@ export default function Home() {
               <div className={`card ${styles.blogCard} border-0 shadow-sm rounded-lg`} data-aos="fade-up">
                 <div className="card-body">
                 <Link href={`/${blog.slug}`} passHref legacyBehavior>
-  <a className="text-decoration-none">
-    <h4 className="card-title mb-3">{blog.title}</h4>
-  </a>
-</Link>
+                  <a className="text-decoration-none">
+                    <h4 className="card-title mb-3">{blog.title}</h4>
+                  </a>
+                </Link>
 
                   <p className="card-text">{blog.excerpt}</p>
                 </div>
