@@ -29,6 +29,38 @@ const PostDetailLayout = ({ children }) => {
       <footer className={styles.footer}>
         <p>&copy; {new Date().getFullYear()} techPlazaa. All rights reserved.</p>
       </footer>
+
+      <style jsx>{`
+        .chat-box {
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          width: 300px;
+          max-height: 400px;
+          overflow-y: auto;
+          background: white;
+          border: 1px solid #ccc;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+
+        .chat-header {
+          background: #343a40;
+          color: white;
+          padding: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+
+        .chat-body {
+          padding: 10px;
+        }
+
+        .chat-input {
+          width: calc(100% - 20px);
+          margin: 10px;
+        }
+      `}</style>
     </div>
   );
 };

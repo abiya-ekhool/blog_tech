@@ -25,6 +25,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+     
         <title>Tech Plazaa - A Tech Blog</title>
         <meta name="description" content="Explore the latest tech trends and innovations on Tech Plazaa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,6 +54,17 @@ export default function Home() {
             }
           `
         }} />
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3F92CJJZJ"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y3F92CJJZJ');
+            `,
+          }}
+        />
       </Head>
 
       <main className="container py-5">
